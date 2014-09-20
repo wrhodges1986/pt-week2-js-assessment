@@ -34,3 +34,30 @@
     obj.odds ----> [1,3,5]
 */
   
+  
+
+/* we have an i5 processor and are currious as to what cores are needed when we are playing Minecraft.
+
+write a function that can take in an array of objects and output the ammount of total processor output by all cores that are in use */
+
+var processors = [{
+    core: 1,
+    inUse: true,
+    output: 4000
+},{
+    core: 2,
+    inUse: false,
+    output: 100
+},{
+    core: 3,
+    inUse: true,
+    output: 1170
+},{
+    core: 4,
+    inUse: true,
+    output: 3250
+},{
+    core: 5,
+    inUse: false,
+    output: 670
+}];
