@@ -41,7 +41,7 @@ for (var i = 0; i < family.length; i++) {
   //Function definition here
 var reverse = function(inputString) {
   return inputString.split("").reverse().join("");
-}
+};
 
   //Call the function here
 reverse("Hello world");

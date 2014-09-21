@@ -27,5 +27,5 @@ delete User.password;
 var values = [];
 
 for (var key in User) {
-  values.push(User.key);
+  values.push(User[key]);
 }
